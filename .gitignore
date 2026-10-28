@@ -1,0 +1,7 @@
+node_modules
+.next
+.env*
+!.env.example
+credentials.json
+*service-account*.json
+*service_account*.json
