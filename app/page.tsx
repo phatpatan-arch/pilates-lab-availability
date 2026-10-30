@@ -3,7 +3,7 @@ import {useCallback,useEffect,useState} from 'react';
 type Slot={start:string;end:string;available:boolean};
 const localDate=()=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const whatsapp='66657755299';
-const firstStart='06:30';
+const firstStart='06:00';
 const lastStart='22:00';
 const inBookingWindow=(start:string)=>start>=firstStart&&start<=lastStart;
 export default function Home(){
